@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>hello!</title>
+        <link rel="stylesheet" type="text/css" href="css.css" />
+        <script src="js.js" defer></script>
+    </head>
+    <body>
+        <form class = "command" onsubmit = "execute(event)">
+            <input class = "function" type= "text" name="command" id="command" />
+        </form>
+        <main class= "main">
+            <div class = "column">
+                <label for="input">Input</label>
+                <textarea class = "io" name="input" id="input"></textarea>
+            </div>
+            <div class = "column">
+                <label for="output">Output</label>
+                <textarea class = "io" readonly name="output", id="output"></textarea>
+            </div>
+        </main>   
+    </body>
+</html>
